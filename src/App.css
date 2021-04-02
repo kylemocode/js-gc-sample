@@ -7,11 +7,11 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 8s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +35,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.App-btn {
+  width: 150px;
+  padding: 5px;
+  border: none;
+  background-color: #328fa8;
+  color: white;
+  margin-top: 15px;
+  font-size: 24px;
+  border-radius: 5px;
+  cursor: pointer;
 }
